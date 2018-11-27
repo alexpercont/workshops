@@ -12,6 +12,11 @@
   <name>Heroku maven plugin deploy example</name>
   <description>Example of deployment application to heroku using Maven plugin.</description>
 
+  <scm>
+    <connection>scm:git:https://github.com/alexpercont/workshops.git</connection>
+    <url>https://github.com/alexpercont/workshops</url>
+  </scm>
+
   <build>
     <plugins>
       <plugin>
